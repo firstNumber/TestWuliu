@@ -1,5 +1,6 @@
 package com.java.common.function.one;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -18,5 +19,11 @@ public class FunctionOneTest {
             put("美女","刘诗诗");
         }};
         maps.forEach((k,v)-> System.out.println(""+k+"\t"+v));
+
+        for(Map.Entry enty :maps.entrySet()){
+            System.out.println(enty.getKey()+"\t"+enty.getValue()+"***");
+        }
+        System.out.println("21321");
+
     }
 }
