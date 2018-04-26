@@ -6,6 +6,4 @@ package com.java.common.function.two;
  **/
 public class SingletonDemo5 {
     public Person p = new Person();
-
-
 }
